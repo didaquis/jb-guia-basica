@@ -29,181 +29,155 @@
 	<meta name="twitter:image" content="img/preview.png">
 
 	<style>
-		kbd {
-			background-color: #f8f9fa;
-			color: #000;
-		}
+        kbd {
+            background-color: #f8f9fa;
+            color: #000;
+        }
 
-		code {
-			color: #0dcaf0;
-		}
+        code {
+            color: #0dcaf0;
+        }
 	</style>
 </head>
 <body class="bg-dark text-white">
-	<div class="container mt-3">
+<div class="container mt-3">
 
-		<div class="row">
-			<div class="col text-center my-5">
-				<h1>PhpStorm | WebStorm</h1>
-				<h2 class="display-6">Atajos de teclado imprescindibles para macOS</h2>
-			</div>
+	<div class="row">
+		<div class="col text-center my-5">
+			<h1>PhpStorm | WebStorm</h1>
+			<h2 class="display-6">Atajos de teclado imprescindibles para macOS</h2>
 		</div>
-
-		<div class="row row-cols-sm-1 row-cols-lg-2">
-			<div class="col mb-4">
-				<h3 class="mb-3">Seleccionar texto</h3>
-				<table class="table table-bordered text-white">
-					<tbody>
-						<tr>
-							<td class="text-nowrap"><kbd>Ctrl G</kbd></td>
-							<td>Selecciona la palabra (repite para incluir otra aparición de la misma palabra)</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ ⇧ →</kbd></td>
-							<td>Selecciona desde la posición del cursor hasta el final de la línea</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ ⇧ ←</kbd></td>
-							<td>Selecciona desde la posición del cursor hasta el principio de la línea</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-
-			<div class="col mb-4">
-				<h3 class="mb-3">Moverse entre código</h3>
-				<table class="table table-bordered text-white">
-					<tbody>
-						<tr>
-							<td class="text-nowrap"><kbd>alt →</kbd></td>
-							<td>Salta una palabra (hacia la derecha)</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>alt ←</kbd></td>
-							<td>Salta una palabra (hacia la izquierda)</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ →</kbd></td>
-							<td>Salta al final de la línea</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ ←</kbd></td>
-							<td>Salta al inicio de la línea</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-
-			<div class="col mb-4">
-				<h3 class="mb-3">Escritura y manipulación de texto</h3>
-				<table class="table table-bordered text-white">
-					<tbody>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ D</kbd></td>
-							<td>Duplica la línea actual (si tienes un bloque de texto seleccionado, lo duplicará entero)</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⇧ alt ↓</kbd></td>
-							<td>Mueve la línea hacia abajo</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⇧ alt ↑</kbd></td>
-							<td>Mueve la línea hacia arriba</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ X</kbd></td>
-							<td>Elimina la línea</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ ⇧ A</kbd></td>
-							<td>Abre el menú de acciones de código disponibles</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-
-			<div class="col mb-4">
-				<h3 class="mb-3">Paleta de comandos y miscelánea</h3>
-				<table class="table table-bordered text-white">
-					<tbody>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ ⇧ P</kbd></td>
-							<td>Invoca Paleta de comandos.<br><br>
-								Algunas sugerencias:
-								<ul>
-									<li>Sort lines ascending</li>
-									<li>View: split editor</li>
-									<li>Transform to Uppercase</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ I</kbd></td>
-							<td>Invocar sugerencias</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ ⇧ E</kbd></td>
-							<td>Mostrar el explorador de ficheros y colocar el foco en él</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ ⇧ F</kbd></td>
-							<td>Búsqueda avanzada / reemplazar texto</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>Ctrl TAB</kbd></td>
-							<td>Mantener Ctrl pulsado y luego presionar tab para ver una lista de los ficheros abiertos</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>Ctrl `</kbd></td>
-							<td>Mostrar u ocultar el terminal</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-
-			<div class="col mb-4">
-				<h3 class="mb-3">Go to...</h3>
-				<table class="table table-bordered text-white">
-					<tbody>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ P</kbd> , <code>foo.txt</code></td>
-							<td>Invoca Go to y abre el fichero "foo.txt"</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ P</kbd> , <code>:108</code></td>
-							<td>Invoca Go to y te lleva al número de línea que le indiques (ej: 108)</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ P</kbd> , <code>@myFunction</code></kbd></td>
-							<td>Invoca Go to y te permite buscar entre las funciones declaradas en ese fichero (ej: <em>function
-									myFunction()</em>)</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⇧ ⌘ O</kbd></td>
-							<td>Te lista y permite ir directamente a cualquier símbolo del fichero</td>
-						</tr>
-						<tr>
-							<td class="text-nowrap"><kbd>⌘ "click"</kbd></td>
-							<td>Salta a la definición</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-
-		<div class="row mt-3 mb-4">
-			<div class="col text-center fw-light">
-				Creado por Dídac García
-				<a href="https://twitter.com/didaquis" target="_blank" rel="noreferrer noopener"
-					title="didaquis en Twitter" class="mx-1 link-info"><i class="bi bi-twitter"></i></a>
-				<a href="https://github.com/didaquis" target="_blank" rel="noreferrer noopener"
-					title="didaquis en GitHub" class="mx-1 link-info"><i class="bi bi-github"></i></a>
-			</div>
-		</div>
-
 	</div>
 
-	<!-- Bootstrap Core JavaScript -->
-	<!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+	<div class="row row-cols-sm-1 row-cols-lg-2">
+		<div class="col mb-4">
+			<h3 class="mb-3">Seleccionar texto</h3>
+			<table class="table table-bordered text-white">
+				<tbody>
+				<tr>
+					<td class="text-nowrap"><kbd>Ctrl G</kbd></td>
+					<td>Selecciona la palabra (repite para incluir otra aparición de la misma palabra)</td>
+				</tr>
+				<tr>
+					<td class="text-nowrap"><kbd>⌘ ⇧ →</kbd></td>
+					<td>Selecciona desde la posición del cursor hasta el final de la línea</td>
+				</tr>
+				<tr>
+					<td class="text-nowrap"><kbd>⌘ ⇧ ←</kbd></td>
+					<td>Selecciona desde la posición del cursor hasta el principio de la línea</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="col mb-4">
+			<h3 class="mb-3">Moverse entre código</h3>
+			<table class="table table-bordered text-white">
+				<tbody>
+				<tr>
+					<td class="text-nowrap"><kbd>alt →</kbd></td>
+					<td>Salta una palabra (hacia la derecha)</td>
+				</tr>
+				<tr>
+					<td class="text-nowrap"><kbd>alt ←</kbd></td>
+					<td>Salta una palabra (hacia la izquierda)</td>
+				</tr>
+				<tr>
+					<td class="text-nowrap"><kbd>⌘ →</kbd></td>
+					<td>Salta al final de la línea</td>
+				</tr>
+				<tr>
+					<td class="text-nowrap"><kbd>⌘ ←</kbd></td>
+					<td>Salta al inicio de la línea</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="col mb-4">
+			<h3 class="mb-3">Escritura y manipulación de texto</h3>
+			<table class="table table-bordered text-white">
+				<tbody>
+				<tr>
+					<td class="text-nowrap"><kbd>⌘ D</kbd></td>
+					<td>Duplica la línea actual (si tienes un bloque de texto seleccionado, lo duplicará entero)</td>
+				</tr>
+				<tr>
+					<td class="text-nowrap"><kbd>⇧ alt ↓</kbd></td>
+					<td>Mueve la línea hacia abajo</td>
+				</tr>
+				<tr>
+					<td class="text-nowrap"><kbd>⇧ alt ↑</kbd></td>
+					<td>Mueve la línea hacia arriba</td>
+				</tr>
+				<tr>
+					<td class="text-nowrap"><kbd>⌘ X</kbd></td>
+					<td>Elimina la línea</td>
+				</tr>
+				<tr>
+					<td class="text-nowrap"><kbd>Ctrl T</kbd></td>
+					<td>Abre el menú de acciones de código disponibles</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="col mb-4">
+			<h3 class="mb-3">Paleta de comandos y miscelánea</h3>
+			<table class="table table-bordered text-white">
+				<tbody>
+				<tr>
+					<td class="text-nowrap"><kbd>⌘ ⇧ A</kbd></td>
+					<td>Invoca Paleta de comandos.<br><br>
+						Algunas sugerencias:
+						<ul>
+							<li>Sort lines</li>
+							<li>Split right</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td class="text-nowrap"><kbd>Ctrl t</kbd></td>
+					<td>Invocar menú de refactors</td>
+				</tr>
+				<tr>
+					<td class="text-nowrap"><kbd>Ctrl TAB</kbd></td>
+					<td>Mantener Ctrl pulsado y luego presionar tab para ver una lista de los ficheros abiertos</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="col mb-4">
+			<h3 class="mb-3">Go to...</h3>
+			<table class="table table-bordered text-white">
+				<tbody>
+				<tr>
+					<td class="text-nowrap"><kbd>⌘ ⇧ O</kbd> , <code>foo.txt</code></td>
+					<td>Invoca Go to y abre el fichero "foo.txt"</td>
+				</tr>
+				<tr>
+					<td class="text-nowrap"><kbd>⌘ "click"</kbd></td>
+					<td>Salta a la definición</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<div class="row mt-3 mb-4">
+		<div class="col text-center fw-light">
+			Creado por Dídac García
+			<a href="https://twitter.com/didaquis" target="_blank" rel="noreferrer noopener"
+			   title="didaquis en Twitter" class="mx-1 link-info"><i class="bi bi-twitter"></i></a>
+			<a href="https://github.com/didaquis" target="_blank" rel="noreferrer noopener"
+			   title="didaquis en GitHub" class="mx-1 link-info"><i class="bi bi-github"></i></a>
+		</div>
+	</div>
+
+</div>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 </body>
 </html>
