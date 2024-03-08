@@ -14,6 +14,6 @@ Proyecto publicado aquí: https://jetbrains.surge.sh
 
 ### Dev notes
 
-* Deployed on Surge.sh usign GitHub actions
+* Deployed on Surge.sh using GitHub actions
 * Using Bootstrap 5 https://getbootstrap.com/docs/5.0/getting-started/introduction/
 * Using Bootstrap Icons 1.4.1 https://icons.getbootstrap.com/#icons
