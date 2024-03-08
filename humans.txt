@@ -1,0 +1,18 @@
+# http://humanstxt.org
+
+
+/* TEAM */
+
+Name: Dídac García
+Role: Web Developer
+Twitter: @didaquis
+GitHub: https://github.com/didaquis
+From: Spain
+
+
+/* SITE */
+
+Published: 2024
+Language: spanish
+Technology colophon: Bootstrap and Bootstrap Icons
+
